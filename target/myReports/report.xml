@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.906">
+    <testcase classname="FD Calculator" name="Verify FD Amount for valid Inputs" time="9.495">
+        <system-out><![CDATA[Given user is on home page..................................................passed
+When user enters FDAmount,FDPeriod..........................................passed
+And user Selects item from FD_Period........................................passed
+And user enters FD_Interest.................................................passed
+And user Select item from FD_CompoundingInt.................................passed
+And Clicks on FD Maturity Amount button.....................................passed
+Then SUT displays FDAmount and FDInterest...................................passed
+And Close AUT...............................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

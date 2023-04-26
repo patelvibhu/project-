@@ -1,0 +1,104 @@
+[ {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2023-04-24T15:17:13.744Z",
+    "line" : 2,
+    "name" : "Verify FD Amount for valid Inputs",
+    "description" : "",
+    "id" : "fd-calculator;verify-fd-amount-for-valid-inputs",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 8646494600,
+        "status" : "passed"
+      },
+      "line" : 3,
+      "name" : "user is on home page",
+      "match" : {
+        "location" : "stepDefinations.TS01_FDCalcStepDefination.user_is_on_home_page()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 17001000,
+        "status" : "passed"
+      },
+      "line" : 4,
+      "name" : "user enters FDAmount,FDPeriod",
+      "match" : {
+        "location" : "stepDefinations.TS01_FDCalcStepDefination.user_enters_fd_amount_fd_period()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 1000100,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "user Selects item from FD_Period",
+      "match" : {
+        "location" : "stepDefinations.TS01_FDCalcStepDefination.user_selects_item_from_fd_period()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "user enters FD_Interest",
+      "match" : {
+        "location" : "stepDefinations.TS01_FDCalcStepDefination.user_enters_fd_interest()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "user Select item from FD_CompoundingInt",
+      "match" : {
+        "location" : "stepDefinations.TS01_FDCalcStepDefination.user_select_item_from_fd_compounding_int()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 1000100,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "Clicks on FD Maturity Amount button",
+      "match" : {
+        "location" : "stepDefinations.TS01_FDCalcStepDefination.clicks_on_fd_maturity_amount_button()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "SUT displays FDAmount and FDInterest",
+      "match" : {
+        "location" : "stepDefinations.TS01_FDCalcStepDefination.sut_displays_fd_amount_and_fd_interest()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 743042500,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "Close AUT",
+      "match" : {
+        "location" : "stepDefinations.TS01_FDCalcStepDefination.close_aut()"
+      },
+      "keyword" : "And "
+    } ]
+  } ],
+  "name" : "FD Calculator",
+  "description" : "",
+  "id" : "fd-calculator",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/features/TS01_FDCalc.feature",
+  "tags" : [ ]
+} ]
